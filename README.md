@@ -45,28 +45,6 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 uv sync
 ```
 
-### Environment Variables
-
-```bash
-cp .env_sample.txt .env
-# Then open .env and fill in your real API keys
-```
-
-`.env` file contents:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
-ANTHROPIC_API_KEY=your_anthropic_api_key_here
-GOOGLE_API_KEY=your_google_api_key_here
-PINECONE_API_KEY=your_pinecone_api_key_here
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USERNAME=neo4j
-NEO4J_PASSWORD=your_neo4j_password_here
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_API_KEY=your_langsmith_api_key_here
-```
-
 ---
 
 ## 📚 Learning Sources
