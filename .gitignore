@@ -1,0 +1,115 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+MANIFEST
+
+# ========================
+# Virtual environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# uv / pip
+# ========================
+uv.lock
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# API Keys / Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+secrets.json
+*_key.txt
+*.pem
+*.key
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ========================
+# Large files / Data
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# ========================
+# Model weights / cache
+# ========================
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+models/
+weights/
+~/.cache/huggingface/
+
+# ========================
+# Outputs / temp
+# ========================
+output/
+outputs/
+tmp/
+temp/
+logs/
+*.log
